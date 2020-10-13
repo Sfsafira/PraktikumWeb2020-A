@@ -1,0 +1,135 @@
+<!--Tag pembuka pada HTML-->
+    <html>
+    <head>
+        <!--Judul Halaman-->
+        <title>Tugas Tabel</title>
+    </head>
+
+    <body>
+        <!--DAFTAR HADIR merupakan judul dari tabel yang dibuat dengan heading 1,
+        dan digunakan align="center" agar judul berada ditengah2 tabel-->
+        <h1 align="center">DAFTAR HADIR</h1>
+        <!--PRAKTIKUM PEMOGRAMAN BERBASIS WEB merupakan sub judul tabel 
+            yang di buat dengan tag <p></p> -->
+        <p align="center">PRAKTIKUM PEMOGRAMAN BERBASIS WEB</p>
+        <!--Tag <hr> digunakan untuk membuat garis horizontal,
+        dan tag <br> digunakan untuk membuat baris baru-->
+        <hr><br>
+
+        <!--Dibawah ini merupakan struktur tabel DAFTAR HADIR.
+        tabel dibuat dengan tebal border sebesar 1, dan lebar sebesar 100% (mengikuti lebar layar).
+        tag <table> merupakan tag pembuka tabel-->
+        <table border="1" width='100%'>
+            <!--Ini merupakan struktur baris pertama yang digunakan sebagai header dari tabel.
+            Untuk header, saya menambahkan warna pink. <tr> merupakan tag pembuka baris-->
+            <tr bgcolor='pink'>
+                <!--Ini merupakan kolom NIM yang dibuat dengan menggabungkan 2 baris (baris 1 dan 2).
+                dan lebar kolom NIM sebesar 150px-->
+                <th rowspan="2" width="150px">NIM</th>
+                <!--Ini merupakan kolom Nama yang juga dibuat dengan menggabungkan 2 baris (baris 1 dan 2).-->
+                <th rowspan="2">Nama</th>
+                <!--Ini merupakan kolom Pertemuan yang dibuat dengan menggabungkan 5 kolom, 
+                colspan berfungsi untuk menggabungan kolom. 5 kolom yang ada pada koom pertemuan yaitu
+                kolom pertemuan 1-5-->
+                <th colspan="5">Pertemuan</th>
+            <!-- </tr> merupakan tag penutup baris-->
+            </tr>
+            
+            <!--Ini merupakan struktur baris kedua dan juga masih termasuk kedalam tabel header. 
+            Untuk header baris kedua juga dibuat menjadi warna pink, dan digunakan align="center" 
+            agar tulisan berada di tengah-->
+            <tr bgcolor="pink" align="center">
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+
+            <!--Ini merupakan struktur baris ketiga, dan data pada baris ke-3 dibuat rata tengah-->
+            <tr align="center">
+                <!--Ini merupakan data absensi pertama yang dimulai pada baris ke-3. 
+                tag <img> digunakan untuk memasukkan foto dalam tabel, dan lebar setiap foto adalah 30px-->
+                <td>1808561001</td>
+                <td>Safira</td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td>&#x274C;</td>
+                <td>&#x274C;</td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td><img src="foto.jpg" width="30px"></td>
+            </tr>
+
+            <!--Ini merupakan struktur baris keempat, dan data pada baris ke-4 dibuat rata tengah-->
+            <tr align="center">
+                <td>1808561002</td>
+                <td>Ni Putu Ambalika Dewi</td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td>&#x274C;</td>
+                <td>&#x274C;</td>
+            </tr>
+
+            <!--Ini merupakan struktur baris kelima, dan data pada baris ke-5 dibuat rata tengah-->
+            <tr align="center">
+                <td>1808561008</td>
+                <td>Farin Istighfarizky</td>
+                <td>&#x274C;</td>
+                <td>&#x274C;</td>
+                <td>&#x274C;</td>
+                <td>&#x274C;</td>
+                <td>&#x274C;</td>
+            </tr>
+
+            <!--Ini merupakan struktur baris keenam, dan data pada baris ke-6 dibuat rata tengah-->
+            <tr align="center">
+                <td>1808561012</td>
+                <td>Sang Putu Febri Wira Pratama</td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td><img src="foto.jpg" width="30px"></td>
+            </tr>
+
+            <!--Ini merupakan struktur baris ketujuh, dan data pada baris ke-7 dibuat rata tengah-->
+            <tr align="center">
+                <td>1808561020</td>
+                <td>Marissa Audina</td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td>&#x274C;</td>
+                <td>&#x274C;</td>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td><img src="foto.jpg" width="30px"></td>
+            </tr>
+        <!--Tag penutup tabel pertama-->
+        </table>
+
+        <!--Buat baris baru-->
+        <br>
+
+        <!--Ini merupakan tabel kedua,yaitu tabel KETERANGAN, dibuat dengan tebal border="1"-->
+        <table border="1">
+            <!--Ini merupakan baris pertama pada tabel keteranga yang merupakn tabel header.
+            tabel header dibuat sebagai warna pink-->
+            <tr bgcolor="pink">
+                <!--Kolom keterangan sebagai tabel header dibuat dengan menggabungkan 2 kolom-->
+                <th colspan="2">KETERANGAN</th>
+            </tr>
+       
+            <!--Ini merupakan baris kedua, berisi data untuk keterangan hadir-->
+            <tr>
+                <td><img src="foto.jpg" width="30px"></td>
+                <td>Hadir</td>
+            </tr>
+       
+            <!--Ini merupakan baris ketiga, berisi data untuk keterangan tidak hadir-->
+            <tr>
+                <td align="center">&#x274C;</td>
+                <td>Tidak Hadir</td>
+            </tr>
+        <!--Tag penutup tabel kedua-->
+        </table>
+    </body>
+<!--Tag penutup pada HTML-->
+</html>
