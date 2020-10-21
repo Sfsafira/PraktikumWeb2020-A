@@ -1,0 +1,157 @@
+<!--Tag pembuka pada HTML-->
+<html>
+    <!--Tag <head></head> berfungsi untuk menuliskan tag-tag yang akan dibaca-->
+    <head>
+        <!--Tag meta berfungsi untuk mempermudah Google dan browser untuk mengidentifikasi
+        seluruh konten yang ada di dalam web-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Tag title digunakan untuk membuat judul dari sebuah halaman-->
+        <title>Halaman Pendaftaran</title>
+        <!--Tag link digunakan untuk menghubungkan halaman-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="unud.png">
+    </head>
+
+    <!--Tag digunakan untuk membuat isi halaman-->
+    <body>
+        <!--Tag div digunakan untuk mengelompokkan elemen atau tag-tag 
+        menjadi satu grup dengan class "header"-->
+        <div class="header">
+            <!--Tag img digunakan untuk memasukkan gambar pada halaman web-->
+            <img src="foto.png">
+            <!--h1 merupakan heading 1 sebagai judul pada form-->
+            <h1>Halaman Pendaftaran</h1>
+            <!--Tag p digunakan untuk membuat paragraf yang menjelaskan tujuan pengisian form/sebagai sub judul form-->
+            <p>Pendaftaran sebagai peserta dalam RAKERWIL (Rapat Kerja Wilayah) Bali dan Nusa Tenggara 2020</p>
+        </div>
+
+        <!--Tag form digunakan untuk membuat formulir pada html dan digunakan metode POST-->
+        <form action="" method="POST">
+            <!--Struktur tag input dibawah digunakan untuk menginputkan Nama Lengkap dengan
+            type text dan class inputSatu yang telah didesain pada file style.css-->
+            <input 
+                type="text"
+                name="namaLengkap"
+                class="inputSatu"
+                placeholder="Nama Lengkap"
+            />
+            <!--Struktur tag input dibawah digunakan untuk menginputkan Nama Panggilan dengan
+            type text dan class inputDua yang telah didesain pada file style.css-->
+            <input 
+                type="text"
+                name="namaPanggilan"
+                class="inputDua"
+                placeholder="Nama Panggilan"
+            />
+            <!--Tag br berfungsi untuk membuat baris baru-->
+            <br>
+            <!--Struktur tag input dibawah digunakan untuk menginputkan No. Telepon dengan
+            type text dan class inputSatu yang telah didesain pada file style.css-->
+            <input 
+                type="text"
+                name="noTelepon"
+                class="inputSatu"
+                placeholder="No. Telepon"
+            />
+           <!--Struktur tag input dibawah digunakan untuk menginputkan Email dengan
+            type email dan class inputDua yang telah didesain pada file style.css-->
+            <input 
+                type="email"
+                name="email"
+                class="inputDua"
+                placeholder="Email"
+            />
+            <br>
+            <!--Struktur tag input dibawah digunakan untuk menginputkan Tanggal Lahir dengan
+            type number dan class inputTiga yang telah didesain pada file style.css-->
+            <input 
+                type="number"
+                name="tanggalLahir"
+                class="inputTiga"
+                placeholder="Tanggal Lahir"
+            />
+            <!--Struktur tag input dibawah digunakan untuk menginputkan Tempat Lahir dengan
+            type text dan class inputEmpat yang telah didesain pada file style.css-->
+            <input 
+                type="text"
+                name="tempatLahir"
+                class="inputEmpat"
+                placeholder="Tempat Lahir"
+            />
+            <!--Struktur tag select dibawah digunakan untuk menginputkan agama yang dapat dipilih dengan
+            class inputLima yang telah didesain pada file style.css-->
+            <select class="inputLima">
+                <!--Tag option berfungsi untuk mendefinisikan item – item yang ada dalam tag seleksi-->
+                <option>Agama</option>
+                <option>Islam</option>
+                <option>Hindu</option>
+                <option>Buddha</option>
+                <option>Kristen</option>
+                <option>Konghucu</option>
+            </select>
+            <!--Struktur tag input dibawah digunakan untuk menginputkan Universitas dengan
+            type text dan class inputTiga yang telah didesain pada file style.css-->
+            <input 
+                type="text"
+                name="universitas"
+                class="inputTiga"
+                placeholder="Universitas"
+            />
+            <!--Struktur tag input dibawah digunakan untuk menginputkan Fakultas/Jurusan dengan
+            type text dan class inputEmpat yang telah didesain pada file style.css-->
+            <input 
+                type="text"
+                name="fakultasJurusan"
+                class="inputEmpat"
+                placeholder="Fakultas/Jurusan"
+            />
+            <!--Struktur tag input dibawah digunakan untuk menginputkan Jabatan dengan
+            type text dan class inputLima yang telah didesain pada file style.css-->
+            <input 
+                type="text"
+                name="jabatan"
+                class="inputLima"
+                placeholder="Jabatan"
+            />
+            <br>
+            <!--Struktur tag input dibawah digunakan untuk menginputkan Alamat Asal dengan
+            type text dan class inputEnam yang telah didesain pada file style.css-->
+            <input 
+                type="text"
+                name="alamatAsal"
+                class="inputEnam"
+                placeholder="Alamat Asal"
+            />
+            <br><br>
+            
+            <!--Tag label digunakan untuk menampilkan keterangan dari file yang akan diinputkan-->
+            <label class="pilih1">Foto Almamater</label>
+            <label class="pilih1">Scan KTP</label>
+            <br>
+            <!--Struktur tag input dibawah digunakan untuk mengunggah file Foto Almamater dengan 
+            type file dan class pilih1 yang telah didesain pada file style.css-->
+            <input 
+                type="file"
+                class="pilih1"
+            />
+            <!--Struktur tag input dibawah digunakan untuk mengunggah file Scan KTP dengan 
+            type file dan class pilih2 yang telah didesain pada file style.css-->
+            <input 
+                type="file"
+                class="pilih2"
+            />
+            <br>
+            <!--Struktur tag input dibawah digunakan untuk menampilkan tombol daftar dengan 
+            type submit dan class submit yang telah didesain pada file style.css-->
+            <input 
+                type="submit" 
+                value="Daftar" 
+                class="submit"
+            />
+        <!--Tag penutup pembuatan form-->
+        </form>
+    <Tag penutup pembuatan isi halaman
+    </body>
+<!--Tag penutup pada HTML-->
+</html>

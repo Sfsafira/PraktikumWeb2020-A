@@ -1,0 +1,125 @@
+/*CSS digunakan untuk membuat tampilan dari HTML*/
+
+/*Struktur class dibawah digunakan untuk desain pada class header dengan tag img*/
+.header img{
+    /*margin berfungsi untuk mengatur ukuran lebar margin*/
+    margin: 0 auto;
+    /*width berfungsi unutk mengatur lebar gambar*/
+    width: 100%;
+    /*height berfungsi untuk mengatur tinggi gambar*/
+    height: 200px;
+}
+
+/*Struktur class dibawah digunakan untuk desain pada class header dengan tag h1 sebagai judul formulir*/
+.header h1{
+    /*position berfungsi untuk mengatur posisi h1*/
+    position: absolute;
+    /*font-size berfungsi untuk mengatur ukuran font*/
+    font-size: 50px;
+    /*font-family berfungsi untuk mengatur jenis font*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*top berfungsi untuk mengatur jarak atas pada h1*/
+    top: 25px;
+    /*left  berfungsi untuk mengatur jarak kiri pada h1*/
+    left: 190px;
+    /*color berfungsi untuk mengatur warna tulisan pada h1*/
+    color: white;
+}
+
+/*Struktur class dibawah digunakan untuk desain pada class header dengan tag p sebagai sub judul formulir*/
+.header p{
+    position: absolute;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 100px;
+    left: 193px;
+    color: white;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class inputSatu*/
+.inputSatu{
+    margin: 5px 5px 5px 190px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    font: 15px  Arial, Helvetica, sans-serif;
+    width: 35%;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class inputDua*/
+.inputDua{
+    margin: 5px 0px 5px 0px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    font: 15px  Arial, Helvetica, sans-serif;
+    width: 35%;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class inputTiga*/
+.inputTiga{
+    margin: 5px 5px 5px 190px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    font: 15px  Arial, Helvetica, sans-serif;
+    width: 23%;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class inputEmpat*/
+.inputEmpat{
+    margin: 5px 5px 5px 0px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    font: 15px  Arial, Helvetica, sans-serif;
+    width: 23%;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class Lima*/
+.inputLima{
+    margin: 5px 0px 5px 0px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    font: 15px Arial, Helvetica, sans-serif;
+    width: 23.3%;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class inputEnam*/
+.inputEnam{
+    margin: 5px 5px 5px 190px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    font: 15px  Arial, Helvetica, sans-serif;
+    width: 70.7%;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class pilih1*/
+.pilih1{
+    margin: 5px 0px 5px 190px;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class pilih2*/
+.pilih2{
+    margin: 5px 0px 5px 42px;
+}
+
+/*Struktur class dibawah digunakan untuk men-desain class submit*/
+.submit{
+    margin: 5px 0px 5px 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: green;
+    border: 2px solid green;
+    border-radius: 3px;
+    padding: 6px 10px 6px 10px;
+    margin-top: 10px;
+    color: white;
+}
