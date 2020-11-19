@@ -1,0 +1,84 @@
+<!--Tag pembuka HTML-->
+<html>
+    <!--Tag untuk menuliskan tag-tag yang akan dibaca oleh mesin-->
+    <head>
+        <!--Sebagai judul pada title bar-->
+        <title>Kalkulator Sederhana</title>
+         <!--Untuk menghubungkan html dengan halaman CSS-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- Untuk menulis atau menyisipkan script (seperti JavaScript) pada sisi client -->
+        <script language="Javascript">
+            //Fungsi untuk menghitung operasi penjumlahan dengan mengambil nilai dari inputan bil1 dan bil2. Hasil untuk operasi penjumlahan didapatkan dengan rumus hasil=nil1+nil2
+            function tambah(){
+                var nil1 = parseFloat(document.form.bil1.value);
+                var nil2 = parseFloat(document.form.bil2.value);  
+                var hasil= nil1 + nil2;
+                document.form.hasil.value= hasil;
+            }
+            //Fungsi untuk menghitung operasi pengurangan dengan mengambil nilai dari inputan bil1 dan bil2. Hasil untuk operasi pengurangan didapatkan dengan rumus hasil=nil1-nil2
+            function kurang(){
+                var nil1 = parseFloat(document.form.bil1.value);
+                var nil2 = parseFloat(document.form.bil2.value);
+                var hasil = nil1 - nil2;
+                document.form.hasil.value= hasil;
+            }
+            //Fungsi untuk menghitung operasi pembagian dengan mengambil nilai dari inputan bil1 dan bil2. Hasil untuk operasi pembagian didapatkan dengan rumus hasil=nil1/nil2
+            function bagi(){
+                var nil1 = parseFloat(document.form.bil1.value);
+                var nil2 = parseFloat(document.form.bil2.value);
+                var hasil= nil1 / nil2;
+                document.form.hasil.value= hasil;
+            }
+            //Fungsi untuk menghitung operasi perkalian dengan mengambil nilai dari inputan bil1 dan bil2. Hasil untuk operasi perkalian didapatkan dengan rumus hasil=nil1*nil2
+             function kali(){
+                var nil1 = parseFloat(document.form.bil1.value);
+                var nil2 = parseFloat(document.form.bil2.value);
+                var hasil= nil1 * nil2;
+                document.form.hasil.value= hasil;
+            }
+        </script>
+        <!--Tag untuk membuat form dengan nama form-->
+        <form name="form">
+            <!--Untuk membuat tabel-->
+            <table style="margin-left:auto;margin-right:auto" class="tabel">
+                <!--Untuk membuat judul pada tabel-->
+                <tr>
+                    <td colspan="3" align ="center">
+                    <h1>Kalkulator</h1>
+                    </td>
+                </tr>
+                <!--Untuk menginputkan bilangan 1-->
+                <tr>
+                    <td>Bilangan 1 :</td>
+                    <td><input type="text" name="bil1"/></td>
+                </tr>
+                <!--Untuk menginputkan bilangan 2-->
+                <tr>
+                    <td>Bilangan 2 :</td>
+                    <td><input type="text" name="bil2"/></td>
+                </tr>
+                <!--Untuk menampilkan button operator-->
+                <tr>
+                    <td></td>
+                    <td colspan="3" align="center">
+                        <!--Untuk membuat button dan memanggil fungsi tambah() ketika button "+" di klik oleh user-->
+                        <input type="button" value="+" onClick="tambah()"/>
+                        <!-- Untuk membuat button dan memanggil fungsi kurang() ketika button "-" di klik oleh user -->
+                        <input type="button" value="-" onClick="kurang()"/>
+                        <!--Untuk membuat button dan memanggil fungsi kali() ketika button "x" di klik oleh user-->
+                        <input type="button" value="x" onClick="kali()"/>
+                        <!--Untuk membuat button dan memanggil fungsi bagi() ketika button "/" di klik oleh user-->
+                        <input type="button" value=":" onClick="bagi()"/>
+                    </td>
+                </tr>
+                <!--Untuk menampilkan hasil perhitungan setiap operasi matematika-->
+                <tr>
+                    <td>Hasil :</td>
+                    <td><input type="text" name="hasil" value=""/></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html

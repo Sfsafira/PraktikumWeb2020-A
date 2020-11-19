@@ -1,0 +1,20 @@
+/* untuk mengatur warna background, ukuran font dan jenis font pada class operator*/
+.operator{ 
+	background-color:gainsboro; 
+    font-size:10pt;
+    font-family: 'Courier New', Courier, monospace;
+    }
+/* untuk mengatur warna, ukuran font, jenis font, gambar background, margin, padding dan ukuran background pada class tabel*/
+.tabel{
+     color: black; 
+     font-size: 12pt;
+     font-family: 'Courier New', Courier, monospace;
+     background-color: aquamarine;
+     margin:150px;
+     padding:80px;
+     background-size: 100%
+    }
+/* untuk mengatur style dari body */
+body{
+    background-color: lightcoral;
+}
