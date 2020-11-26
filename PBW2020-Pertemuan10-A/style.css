@@ -1,0 +1,39 @@
+/* untuk mengatur border, lebar, tinggi, margin, warna latar, dan jenis fontpada button */
+.button{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: lightgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* untuk mengatur lebar, tinggi, border, margin bawah, warna latar, dan jenis font pada setiap input*/
+input{
+    width: 100%;
+    line-height: 25px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* untuk mengatur lebar, tinggi, ukuran font, dan jenis font pada form */
+form{
+    width: 30%;
+    height: 50%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* untuk mengatur border, warna latar belakang dan jenis font pada tabel */
+table{
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgb(255, 251, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* untuk mengatur warna latar belakang pada halaman web */
+body{
+    background-color: rgb(104, 182, 255);
+}
