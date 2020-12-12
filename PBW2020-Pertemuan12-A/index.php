@@ -26,7 +26,7 @@
 								<br>
 								<h2><b>LOGIN</b></h2><br>
 							</div>
-                            <br />
+                            <br/>
                             <?php
                                 //Fungsi untuk mencegah inputan karakter yang tidak sesuai
                                 function input($data) {
