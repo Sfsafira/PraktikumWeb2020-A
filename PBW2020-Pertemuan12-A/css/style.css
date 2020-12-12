@@ -1,0 +1,38 @@
+body {
+  background-color: #ffffff;
+}
+.border-box {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.login {
+  border-color: #53509e;
+  background-color: #53509E;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: 'OpenSans-Reguler', sans-serif;
+}
+
+.login:hover {
+  border-color: #53509E;
+  background-color: #d3cece;
+  color: #53509E;
+  font-weight: bold;
+  font-family: 'OpenSans-Reguler', sans-serif;
+}
+
+.label {
+  color: #d3cece;
+}
+
+.navbar{
+  background: rgb(175, 168, 168);
+}
+
+.navbar a{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-family: 'OpenSans-Reguler', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
