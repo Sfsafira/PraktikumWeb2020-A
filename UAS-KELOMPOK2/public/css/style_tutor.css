@@ -1,0 +1,15 @@
+.nav-link:hover {
+  background-color: #138496;
+}
+.display {
+  font-weight: bold;
+}
+#murid {
+  font-size: 30px;
+}
+/*matematika.html*/
+.card-body p {
+  line-height: 10px;
+}
+
+/*end matematika.html*/
