@@ -1,12 +1,15 @@
-## Cara Terhubung dengan Github
+# Tutorin Aja!
 
-- Install Git di PC
-- Buat folder tutorin_aja di htdocs
-- Gunakan perintah git clone https://github.com/widiar/tutorin_aja.git
+### An app for search tutor in Bali
 
-## Next kedepannya
+Used with Tech
 
-- Pelajari sintaks git dasar aja di https://www.youtube.com/watch?v=lTMZxWMjXQU&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf
-  Buka yang nomor "#5 Bekerja dengan Git" sama yang no "#8 Git Remote"
-- Buka git bash, gunakan perintah "git pull" sebelum ngedit
-- Kalau sudah selesai pake perintah "git push" untuk upload
+1.  Bootstrap v4
+2.  MySQL
+3.  PHP MVC
+
+## Install
+
+1.  Make a database and import database `tutorinaja.sql`
+2.  Open `app/config/config.php` define your `BASEURL` and your `DB_CONNECTION`
+3.  Run it with `apache server` in local
